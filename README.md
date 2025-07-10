@@ -9,23 +9,29 @@ Using a single sales data file, the script reads, filters, splits, and populates
 <a tref= "https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/Sales_Data.xlsx"> Sales_Data
 
 ## How It Works
-Input Sales Data
+##Input Sales Data
+
 The script reads a master SalesData.xlsx file that contains raw sales records.
 
-Country-Based Filtering
+##Country-Based Filtering
+
 Based on a list of countries provided in the ‘Summary’ sheet, the script filters the sales data for each country.
 
-Template-Based Report Creation
+##Template-Based Report Creation
+
 For each country, it:
 
-Opens a preformatted Excel report template
+##Opens a preformatted Excel report template:
+
 Populates data such as Total Sales, Amount Received, and Balance Due
 <a tref="https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/Template.xlsx"> Template
 
-Saves a new Excel report using the country name
+##Saves a new Excel report using the country name
+
 Performance Evaluation
 
-After each report is generated, the terminal outputs:
+##After each report is generated, the terminal outputs:
+
 Country-wise totals
 
 ## A comment on performance (e.g. “Doing Great” or “Needs Improvement”) based on company thresholds as below
@@ -36,13 +42,13 @@ Country-wise totals
 
 
 ## Key Features
-Automated multi-country report generation
+-Automated multi-country report generation
 
-Exports clean Excel files using a predefined template
+-Exports clean Excel files using a predefined template
 
-Includes sales summaries and balance analysis per country
+-Includes sales summaries and balance analysis per country
 
-Performance feedback provided via terminal
+-Performance feedback provided via terminal
 
-Eliminates manual sorting and calculation efforts
+-Eliminates manual sorting and calculation efforts
 
