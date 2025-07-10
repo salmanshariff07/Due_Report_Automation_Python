@@ -37,8 +37,12 @@ Country-wise totals
 
 ## Key Features
 Automated multi-country report generation
+
 Exports clean Excel files using a predefined template
+
 Includes sales summaries and balance analysis per country
+
 Performance feedback provided via terminal
+
 Eliminates manual sorting and calculation efforts
 
