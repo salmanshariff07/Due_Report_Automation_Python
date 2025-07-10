@@ -2,11 +2,11 @@
 ## Automating country-wise sales reports for faster insights and smarter tracking
 
 ## Project Overview
-This Python project automates the entire sales reporting process — from raw data to clean, country-specific Excel reports — enabling teams to track regional performance instantly and reduce manual work.
+This Python project automates the entire sales reporting process from raw data to clean, country-specific Excel reports enabling teams to track regional performance instantly and reduce manual work.
 
 Using a single sales data file, the script reads, filters, splits, and populates country-wise sales reports based on a predefined Excel template. It also evaluates performance for each country and provides summary comments to help interpret key metrics.
 
-- <a tref= "https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/Sales_Data.xlsx">SalesDataFile</a>
+- <a href= "https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/Sales_Data.xlsx">SalesDataFile</a>
 
 ## How It Works
 ##Input Sales Data
@@ -24,7 +24,7 @@ For each country, it:
 ##Opens a preformatted Excel report template:
 
 Populates data such as Total Sales, Amount Received, and Balance Due
-- <a tref="https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/Template.xlsx">TemplateFile</a>
+- <a href="https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/Template.xlsx">TemplateFile</a>
 
 ##Saves a new Excel report using the country name
 
@@ -36,7 +36,7 @@ Country-wise totals
 
 ## A comment on performance (e.g. “Doing Great” or “Needs Improvement”) based on company thresholds as below
 
-- <a tref="https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/ReportGenerator.py">ReportGeneratorCode</a>
+- <a href="https://github.com/salmanshariff07/Due_Report_Automation_Python/blob/main/ReportGenerator.py">ReportGeneratorCode</a>
 
 ![Generation](https://github.com/user-attachments/assets/1d756e50-9610-4590-afb0-765cb21c9b57)
 
